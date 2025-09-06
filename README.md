@@ -3,7 +3,7 @@
 This CDK project deploys a Bedrock Knowledge Base with OpenSearch Serverless for intelligent document search and retrieval using metadata-driven filtering.
 
 ## Architecture Overview
-![Architecture Diagram](/resources/LegalDocumentsGenAIArchitecture.png)
+![Architecture Diagram](/resources/MetadataDrivenSearchDocDiscovery.png)
 
 The solution consists of 4 CDK stacks that deploy:
 
