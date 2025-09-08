@@ -5,7 +5,7 @@ This CDK project deploys a Bedrock Knowledge Base with OpenSearch Serverless for
 ## Architecture Overview
 ![Architecture Diagram](/resources/MetadataDrivenSearchDocDiscovery.png)
 
-The solution consists of 4 CDK stacks that deploy:
+The solution consists of four CDK stacks that deploy:
 
 - **DataStack**: S3 buckets, IAM roles, and Lambda function for metadata processing
 - **IndexStack**: Vector search infrastructure with collection and index
@@ -129,7 +129,7 @@ For production deployments, implement additional security controls, data classif
 
 ## Cleanup and Destroy
 
-When you're done with the solution and want to remove all resources:
+To avoid unnecessary costs, remove all resources when testing is complete.
 
 ### 1. Empty S3 Buckets
 Before destroying the stacks, you must empty the S3 buckets:
